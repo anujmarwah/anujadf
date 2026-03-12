@@ -1,0 +1,52 @@
+{
+	"name": "HttpToAdls",
+	"properties": {
+		"activities": [
+			{
+				"name": "HTTP_Ingestion",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"enableStaging": false
+				}
+			}
+		],
+		"parameters": {
+			"files_array": {
+				"type": "array",
+				"defaultValue": [
+					{
+						"file": "map_cities"
+					},
+					{
+						"file": "map_cancellation_reasons"
+					},
+					{
+						"file": "map_rides"
+					},
+					{
+						"file": "map_payment_methods"
+					},
+					{
+						"file": "map_ride_statuses"
+					},
+					{
+						"file": "map_vehicle_makes"
+					},
+					{
+						"file": "map_types"
+					}
+				]
+			}
+		},
+		"annotations": []
+	}
+}
