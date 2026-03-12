@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "amdatafactory-uber"
+		},
+		"ls_DataLake_accountKey": {
+			"value": ""
+		},
+		"ls_DataLake_properties_typeProperties_url": {
+			"value": "https://uberstorageaccountam.dfs.core.windows.net/"
+		},
+		"ls_Github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
