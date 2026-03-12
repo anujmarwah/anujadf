@@ -1,0 +1,9 @@
+{
+	"name": "amdatafactory-uber",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "da1e852c-d774-4697-89d2-2516679e4cc2",
+		"tenantId": "84f1e4ea-8554-43e1-8709-f0b8589ea118"
+	}
+}
