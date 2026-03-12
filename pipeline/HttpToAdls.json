@@ -47,8 +47,15 @@
 					"dataset": {
 						"referenceName": "DSFilesArray",
 						"type": "DatasetReference"
-					}
+					},
+					"firstRowOnly": false
 				}
+			},
+			{
+				"name": "ForEach1",
+				"type": "ForEach",
+				"dependsOn": [],
+				"userProperties": []
 			}
 		],
 		"parameters": {
