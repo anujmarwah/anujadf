@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "AzureBlobFS",
 		"typeProperties": {
-			"url": "https://uberstorageaccountam.dfs.core.windows.net/",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDc0OEVCMDEyLTEzMzctNERFNC1BMjcyLUExQUY2QzVFRDMyM181ZGZjY2YyOC1lZjEyLTQ5M2UtYjc5OS0wNWQyMWRkZDVlMTAiDQp9"
+			"url": "https://amadf0312.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDQyQ0NBNDNGLURBQTktNDQ0Ri1BM0E0LUZDMjlBRDRDMjMyMF9hNWFmOTVhZC00YmU4LTQwMmItOGE4My1iYjJjNjAxMDQ1NGIiDQp9"
 		}
 	}
 }
