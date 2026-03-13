@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": "files_array.json",
-				"fileSystem": "filesarray"
+				"fileSystem": "raw"
 			}
 		},
 		"schema": {}
